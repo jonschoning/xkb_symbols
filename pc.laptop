@@ -1,5 +1,8 @@
 default  partial alphanumeric_keys modifier_keys
 xkb_symbols "pc105" {
+    //
+    // (swap CTRL+ALT+CAPS; ALT->CTRL, CAPS->ALT) 
+    //
 
     key <ESC>  {	[ Escape		]	};
 
